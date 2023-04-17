@@ -1,5 +1,5 @@
 //class//
-class Produto {
+class Loja {
   List<String> _lista_produtos = [];
 
   void adicionar_produto(String produto) {
@@ -25,7 +25,7 @@ class Produto {
 import 'cod.dart';
 
 void main() {
-  Produto p1 = Produto();
+  Loja p1 = Loja();
 
   p1.adicionar_produto("Chinelo");
   p1.adicionar_produto("Sapato");
